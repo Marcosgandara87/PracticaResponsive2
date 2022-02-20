@@ -1,0 +1,166 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.headerPrincipal-nav{
+    display: flex;
+}
+
+
+
+.contenidoPrincipal-cursos{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+
+}
+
+.videoSobre .container{
+    display: flex;
+    
+}
+
+.videoSobre-sobre{
+
+display: flex;
+flex-direction: column;
+}
+
+.videoSobre-sobre-title{
+        text-align: center;
+    }
+
+.videoSobre-video{
+    flex-grow: 2;
+}
+
+.rodapePrincipal-navMap-list{
+    
+    display: flex;
+    height: 255px;
+    flex-direction: column;
+    flex-wrap: wrap;    
+       
+}
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+.rodapePrincipal-patrocinadores .container{
+
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    
+}
+
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+    align-items: center;
+    
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 768px){
+
+
+    .headerPrincipal .container{
+       flex-direction: column;
+       align-items: initial;
+       text-align: center;
+    }
+
+    
+    .headerPrincipal-nav{
+    flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos{
+
+        flex-direction: column;
+        
+    } 
+    
+    .contenidoPrincipal-cursos-link{
+        display: flex;
+        width: 100%;
+        
+    
+    }   
+    
+
+    .videoSobre .container{
+        flex-direction: column;
+        flex-basis: 100px;
+    }
+
+    .videoSobre-video{
+        width: 100%;
+        margin: 0px;
+      
+            flex-grow: 2;
+  
+        
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+           
+    }
+    
+
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+       
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+       
+        align-items: center;
+        width: 100%;
+    }
+    
+        
+    .rodapePrincipal-contatoForm{
+        align-items: center;
+        width: 100%;
+    
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+        
+    
+    }
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
+
+}
+
+
+
